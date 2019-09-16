@@ -1,0 +1,33 @@
+Class: Plant
+
+Instance: Beefsteak Tomatoes
+
+Attributes
+plantType: 'Tomato'
+height: 36
+potType: 'Medium Pot'
+location: 'Back Porch'
+wateringAmount: 32
+currentWaterLevel: 12
+
+Methods
+prune: 36-12 = 24
+water: 32 == 12 = 0, 32
+repot: 'Large Pot'
+location: 'Greenhouse'
+
+Instance: Mophead Hydrenga
+
+Attributes
+plantType: 'Hydrenga'
+height: 60
+potType: 'Large Pot'
+location: 'Front Yard'
+wateringAmount: 16
+currentWaterLevel: 16
+
+Methods
+prune: 60-12 = 48
+water: 16 == 16 = 1
+repot: 'Flowerbed'
+location: 'Back Yard'
