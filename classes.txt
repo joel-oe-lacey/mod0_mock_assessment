@@ -1,0 +1,15 @@
+Class: Plant
+
+Attributes
+plantType (string)
+height (integer)
+potType (string)
+location (string)
+wateringAmount (integer)
+currentWaterLevel (integer)
+
+Methods
+prune (reduce height by 12 inches)
+water (check if currentWaterLevel equals wateringAmount, if not increase currentWaterLevel to wateringAmount)
+repot (changes the potType attribute)
+move (changes the location attribute)
